@@ -1,0 +1,42 @@
+.tabContent {
+    padding: 6px 12px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    min-width: 60rem;
+
+
+
+}
+
+.tabTitle {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+
+.list-item {
+    padding: 20px 0;
+    border-top: 1px solid #ededed;
+    max-width: 65rem;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+.list-item span {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+    line-height: 24px;
+}
+

@@ -1,0 +1,37 @@
+.content {
+    border: 3px solid #a68686;
+    min-width: 75rem;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a68686;
+    border: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    height: 4rem;
+}
+
+.tab button:hover {
+    color: white;
+}
+
+.tab button.active {
+    background-color: white;
+    color: black;
+}
